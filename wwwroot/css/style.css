@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body > * {
+    flex: 2;
+  }
+  h1{
+    font-family: 'Yuji Mai', serif;
+    font-size: 4em;
+  }
+  
+  #mensagem, #nome, #github, #sobrenome {
+    color: purple;
+    font-size: 2em;
+    font-family: 'Yuji Mai', serif;
+  }
+  span{
+    color: red;
+    font-weight: bold;
+  }
